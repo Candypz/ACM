@@ -11,8 +11,9 @@ void tongfeng(int &a, int &b, int &a1, int &b1) {
 }
 
 int gcd(int a, int b) {
-    if (a%b == 0)
+    if (a%b == 0) {
         return b;
+    }
     return gcd(b, a%b);
 }
 
